@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.less';
+@import '~antd/lib/style/themes/default.less';
+@import "./variables.less";
+
+.zo-content {
+  min-height: calc(~"100vh - "@header-height - @footer-height);
+
+  .ant-menu {
+    height: 100%;
+  }
+  .ant-menu-inline-collapsed > .ant-menu-item,
+  .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+    padding: 0 24px !important;
+  }
+}
+
+footer {
+  height: @footer-height;
+}
+
+.for-desktop {
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}
+
+.for-mobile {
+  @media screen and (min-width: 991px) {
+    display: none;
+  }
+}

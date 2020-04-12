@@ -1,0 +1,47 @@
+{
+  "name": "zo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-decoupled-document": "^12.1.0",
+    "@ckeditor/ckeditor5-react": "^1.1.3",
+    "antd": "^3.15.2",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "connected-react-router": "^6.4.0",
+    "customize-cra": "^0.2.12",
+    "history": "^4.9.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "react": "^16.8.5",
+    "react-app-rewired": "^2.1.1",
+    "react-dom": "^16.8.5",
+    "react-hot-loader": "^4.8.2",
+    "react-redux": "^7.0.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-splitter-layout": "^4.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools": "^3.5.0",
+    "redux-saga": "^1.0.2",
+    "tachyons": "^4.11.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

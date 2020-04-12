@@ -1,0 +1,35 @@
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #c4c4c4;
+    margin-bottom: 7px;
+    background: #fff;
+    transition: all .4s;
+
+    cursor: pointer;
+    .blog-hero {
+        padding: 0 10px;
+        img {
+            max-width: 130px;
+            width: 100%
+        }
+    }
+    .blog-brief {
+        padding: 0 10px;
+        position: relative;
+        flex: auto;
+        span {
+            position: absolute;
+            right: 10px;
+            bottom: 0;
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 1px 6px 1px #0000004d;
+    }
+    &.selected {
+        background: #f0f2f5;
+        box-shadow: 0 0 3px 0px #ccc;
+    }
+}
